@@ -1,0 +1,10 @@
+.header{
+  background-image: url(../images/backgrounds/landing.jpg);
+  height: 550px;
+}
+.logoimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px
+}
