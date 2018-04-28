@@ -25,6 +25,9 @@
     float: right;
     word-break: break-all;
   }
-
-
+  .drinks{
+    text-align: right;
+  }
+.types{
+  background-image: url(images/backgrounds/foodsBg.jpg);
 }
