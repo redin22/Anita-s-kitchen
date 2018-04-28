@@ -23,7 +23,9 @@
 }
   .food{
     float: right;
-    word-break: break-all;
+    word-wrap: break-word;
+    margin-left:60px;
+    margin-right: 160px;
   }
   .btn{
     border-color: #F15A29;
@@ -35,10 +37,20 @@
   }
 .types{
   background-image: url(../images/backgrounds/foodsBg.jpg);
+  height: 300px;
   margin-left: 10px;
   margin-right: 10px;
 }
+.images{
+  border-width: thick;
+}
 .chicken{
   padding-right: 150px;
+  text-align: center;
+}
+.beef{
+  text-align: center;
+}
+.pizza{
   text-align: center;
 }
