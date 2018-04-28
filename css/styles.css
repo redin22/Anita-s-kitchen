@@ -12,8 +12,15 @@
   text-align: center;
   font-style: normal;
   font-weight: 600;
+  font-family: raleway;
+  src: url(<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">);
 }
 .fastfood{
   float:right;
   padding-top: 70px;
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 5px;
+  width: 250px;
+
 }
