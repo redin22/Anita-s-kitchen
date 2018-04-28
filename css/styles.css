@@ -17,10 +17,9 @@
 }
 .fastfood{
   float:right;
-  padding-top: 70px;
-  border: 1px solid;
-  border-radius: 4px;
-  padding: 5px;
-  width: 250px;
+  padding-top: 50px;
+  padding-left: 160px;
+  border: 2px;
+
 
 }
