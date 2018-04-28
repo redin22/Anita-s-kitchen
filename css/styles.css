@@ -26,7 +26,9 @@
     word-break: break-all;
   }
   .btn{
-    border-color: #F15A29
+    border-color: #F15A29;
+    background-color: white;
+  font-display: #F15A29;
   }
   .drinks{
     text-align: right;
