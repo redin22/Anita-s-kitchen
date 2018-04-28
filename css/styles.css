@@ -19,12 +19,10 @@
   float:right;
   padding-top: 50px;
   padding-left: 160px;
-  border: 1px solid #ddd;
   border-radius: 4px;
-  border-color: white;
 }
   .food{
-    clear: right;
+    float: right;
     word-break: break-all;
   }
 
