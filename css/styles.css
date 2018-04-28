@@ -34,5 +34,7 @@
     text-align: right;
   }
 .types{
-  background-image: url(images/backgrounds/foodsBg.jpg);
+  background-image: url(../images/backgrounds/foodsBg.jpg);
+  margin-left: 10px;
+  margin-right: 10px;
 }
