@@ -30,7 +30,7 @@
   .btn{
     border-color: #F15A29;
     background-color: white;
-  font-display: #F15A29;
+    color:#F15A29;
   }
   .drinks{
     text-align: right;
@@ -75,4 +75,15 @@ margin-left: 30px;
   margin-left: 30px;
   padding-top: 25px;
   padding-bottom: 25px;
+}
+.our{
+  text-align: center;
+}
+.Happy{
+color: #F15A29;
+}
+.subscribe{
+  background-image: url(..images/backgrounds/subscribe.jpg);
+  height: 300px;
+  text-align: center;
 }
