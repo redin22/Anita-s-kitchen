@@ -34,6 +34,8 @@
   }
   .drinks{
     text-align: right;
+  word-break: keep-all;
+  padding-left: 170px;
   }
 .types{
   background-image: url(../images/backgrounds/foodsBg.jpg);
@@ -86,4 +88,10 @@ color: #F15A29;
   background-image: url(..images/backgrounds/subscribe.jpg);
   height: 300px;
   text-align: center;
+}
+.about{
+  color: #F15A29;
+}
+.subscribe{
+  background-color: #F15A29;
 }
