@@ -8,11 +8,15 @@
 <body>
   <div class="container">
   <div class="header">
-    <div class="menu-icon">
-    <span class="line"></span>
-    <span class="line"></span>
-    <span class="line"></span>
-</div>
+    <div class="hamburger" onclick="myFunction(this)">
+      <nav class="nav-hide">
+       <ul class="list-unstyled">
+         <li><a href="#">Contacts</a></li>
+         <li><a href="#">Events</a></li>
+         <li><a href="#">Menu</a></li>
+       </ul>
+     </nav>
+    </div>
     <div class="logo">
       <img class="logoimg" src="images/logoBig.png" alt="Logo" >
     </div>
@@ -64,7 +68,7 @@
         aute irure dolor in reprehenderit in voluptate velit
         esse cillum dolore eu fugiat nulla pariatur. Exce
         pteur sint occaecat cupidatat non proident</p>
-        <button type="button" class="btn btn-default">VIEW GALLERY</button>
+        <button type="button" class="btn btn-default">VIEW GALLERY <span class="glyphicon glyphicon-arrow-right"></span/></button>
       </div>
     </div>
   </div>
@@ -81,7 +85,7 @@
       aute irure dolor in reprehenderit in voluptate velit
       esse cillum dolore eu fugiat nulla pariatur. Exce
       pteur sint occaecat cupidatat non proident</p>
-      <button type="button" class="btn btn-default">VIEW GALLERY</button>
+      <button type="button" class="btn btn-default">VIEW GALLERY <span class="glyphicon glyphicon-arrow-right"></span> </button>
     </div>
   </div>
   <div class="col-md-6">
@@ -91,36 +95,37 @@
 </div>
 <div class="row">
   <div class="meals"
-<!-- Tab links -->
-<div class="tab">
-  <div class="col-md-3">
-    <button class="tablinks" onclick="openfood(event, 'Fastfood')">Fast food</button>
+  <div class="tab">
+    <div class="col-md-3">
+      <button class="tablinks" onclick="openfood(event, 'Fastfood')">Fast food</button>
+    </div>
+    <div class="col-md-3">
+      <button class="tablinks" onclick="openfood(event, 'Drinks')">Drinks</button>
+    </div>
+    <div class="col-md-3">
+      <button class="tablinks" onclick="openfood(event, 'Chicken')">Chicken</button>
+    </div>
+    <div class="col-md-3">
+      <button class="tablinks" onclick="openfood(event, 'Rice')">Rice</button>
+    </div>
+    <!-- Tab content -->
+<div id="Fast food" class="tabcontent">
+  <div class="col-md-4">
+    <img class="chicken" src="images/fastfood/chickenBurger.jpg" alt="chickenburger">
+    <h4> Chicken Burger</h4>
   </div>
-  <div class="col-md-3">
-    <button class="tablinks" onclick="openfood(event, 'Drinks')">Drinks</button>
+  <div class="col-md-4">
+    <img class="beef"src="images/fastfood/beefBurger.jpg" alt="beefburger">
+    <h4>Beef Burger</h4>
   </div>
-  <div class="col-md-3">
-    <button class="tablinks" onclick="openfood(event, 'Chicken')">Chicken</button>
-  </div>
-  <div class="col-md-3">
-    <button class="tablinks" onclick="openfood(event, 'Rice')">Rice</button>
+  <div class="col-md-4">
+    <img class="pizza" src="images/fastfood/chickenPizza.jpg" alt="chickenpizza">
+    <h4>Chicken Pizza</h4>
   </div>
 </div>
   <div class="row">
     <div class="images">
-      <div class="col-md-4">
-        <img class="chicken" src="images/fastfood/chickenBurger.jpg" alt="chickenburger">
-        <h4> Chicken Burger</h4>
-      </div>
-      <div class="col-md-4">
-        <img class="beef"src="images/fastfood/beefBurger.jpg" alt="beefburger">
-        <h4>Beef Burger</h4>
-      </div>
-      <div class="col-md-4">
-        <img class="pizza" src="images/fastfood/chickenPizza.jpg" alt="chickenpizza">
-        <h4>Chicken Pizza</h4>
-      </div>
-    </div>
+
   </div>
   </div>
   <div class="row">
@@ -135,18 +140,18 @@
       <p>Great food!Menu is awesome. There foods are not only great but also in the right price.I'll highly
         recommend them :)
     </div>
-  </div>
-</div>
+    </div>
+    </div>
+    </div>
     <div class="col-md-3">
       <div class="about">
-    <h2><strong>About Menu</strong></h2>
+        <h2><strong>About Menu</strong></h2>
       </div>
-    <p>We are menu a little team of 7 members.Ut enim ad minim veniam, quis nostrud
+        <p>We are menu a little team of 7 members.Ut enim ad minim veniam, quis nostrud
       exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
       irure dolor in reprehenderit in voluptate velit esse cillum
       dolore eu fugiat nulla pariatur.</p>
-</div>
-<div class="panel footer">
+    </div>
 </div>
 <div class="row">
   <div class="col-md-12">

@@ -136,3 +136,24 @@ text-align: center;
   background-image: url(../images/backgrounds/foodsBg.jpg);
   height: 400px;
 }
+.hamburger div{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0px;
+}
+.hamburger{
+  width: 50px;
+  margin:1em 0 0 1em;
+  display: block;
+  cursor: pointer;
+}
+.one{
+  width: 30px;
+}
+.two{
+  width: 30px;
+}
+.three{
+  width: 30px;
+}
