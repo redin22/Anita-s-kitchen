@@ -33,7 +33,7 @@
     color:#F15A29;
   }
   .drinks{
-    text-align: right;
+  text-align: right;
   word-break: keep-all;
   padding-left: 170px;
   }
@@ -57,7 +57,6 @@
   text-align: center;
 }
 .customers{
-  background-color: white;
   margin-left: 120px;
   margin-right: 120px;
   margin-top: 90px;
@@ -66,7 +65,7 @@
 #happy{
   height: 105px;
   text-align: center;
-margin-left: 30px;
+  margin-left: 30px;
   padding-top: 25px;
   padding-bottom: 25px;
 }
@@ -81,8 +80,15 @@ margin-left: 30px;
 .our{
   text-align: center;
 }
+.buttons{
+  display: inline-block;
+}
 .Happy{
 color: #F15A29;
+text-align: center;
+}
+#Happy{
+text-align: center;
 }
 .subscribe{
   background-image: url(..images/backgrounds/subscribe.jpg);
@@ -92,6 +98,14 @@ color: #F15A29;
 .about{
   color: #F15A29;
 }
-.subscribe{
+#subscribe{
   background-color: #F15A29;
+  margin-left: 400px;
+}
+#email{
+  margin-left: 100px;
+}
+.menu{
+  background-color: #F15A29;
+  align-items: center;
 }

@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <div class="container-fluid">
+  <div class="container">
   <div class="header">
     <div class="logo">
       <img class="logoimg" src="images/logoBig.png" alt="Logo" >
@@ -82,6 +82,15 @@
     <img src="images/drink2.jpg" alt="Drink2">
   </div>
 </div>
+<!-- Tab links -->
+<div class="tab">
+  <button class="tablinks" onclick="openfood(event, 'Fastfood')">Fast food</button>
+  <button class="tablinks" onclick="openfood(event, 'Drinks')">Drinks</button>
+  <button class="tablinks" onclick="openfood(event, 'Chicken')">Chicken</button>
+  <button class="tablinks" onclick="openfood(event, 'Rice')">Rice</button>
+
+</div>
+
 <section>
   <div class="row">
     <div class="types">
@@ -121,11 +130,13 @@
       <div class="Happy">
       <h3>Our Happy Customers</h3>
     </div>
+    <div id="Happy">
       <h4>George Richard</h4>
       <p>Great food!Menu is awesome. There foods are not only great but also in the right price.I'll highly
         recommend them :)
     </div>
   </div>
+</div>
     <div class="col-md-3">
       <div class="about">
     <h2><strong>About Menu</strong></h2>
@@ -135,27 +146,33 @@
       irure dolor in reprehenderit in voluptate velit esse cillum
       dolore eu fugiat nulla pariatur.</p>
 </div>
-</div>
 <div class="panel footer">
 </div>
-</div>
-<div class="row"
+<div class="row">
   <div class="col-md-12">
-  <div class="subscribe">
-    <h2>Get our food items delivered to your email</h2>
-  </div>
+    <div class="subscribe">
+    <h3>Get our food items delivered to your email</h3>
   <form>
-     <input type="text" value="Your email"></input>
+    <div class="buttons">
+    <input type="text" value="Your email" id="email"></input>
   </form>
   <form>
-   <input type="submit" value="Subscribe" id="subscribe"></input>
+    <input type="submit" value="Subscribe" id="subscribe"></input>
   </form>
-
+    </div>
+    </div>
   </div>
 </div>
-
-
-
+<div class="row">
+  <div class="col-md-12">
+    <div class="menu">
+      <img src="images/footerlogos/logo_white.png" alt="Footerlogo">
+      <h2>MENU</h2>
+      <p>That's what We Are</p>
+    </div>
+  </div>
+</div>
+</div>
   <script src="js/jquery-3.3.1.js"></script>
   <script src="js/scripts.js"></script>
 </body>
