@@ -47,10 +47,10 @@
 .types{
   height: 200px;
   margin-left: 10px;
-  margin-right: 10px;
+margin-right: 10px;
+
 }
-.images{
-  border-width: thick;
+
 }
 .chicken{
   padding-right: 150px;
@@ -112,6 +112,9 @@ text-align: center;
 .about{
   color: #F15A29;
 }
+#pics :hover {
+  opacity: 0.5;
+}
 #subscribe{
   background-color: #F15A29;
   margin-left: 50px;
@@ -134,7 +137,7 @@ text-align: center;
 }
 .meals{
   background-image: url(../images/backgrounds/foodsBg.jpg);
-  height: 400px;
+  height: 250px;
 }
 .hamburger div{
     width: 35px;
