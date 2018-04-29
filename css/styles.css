@@ -12,6 +12,7 @@
   text-align: center;
   font-style: normal;
   font-weight: 600;
+  color: white;
   font-family: raleway;
   src: url(<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">);
 }
@@ -91,6 +92,9 @@
 .buttons{
   display: inline-block;
 }
+#Menu{
+clear: right;
+}
 .Happy{
 color: #F15A29;
 text-align: center;
@@ -99,24 +103,36 @@ text-align: center;
 text-align: center;
 }
 .subscribe{
-  background-image: url(..images/backgrounds/subscribe.jpg);
+  background-image: url(../images/backgrounds/subscribe.jpg);
   height: 200px;
   text-align: center;
+  padding-top: 50px;
+  color: white;
 }
 .about{
   color: #F15A29;
 }
 #subscribe{
   background-color: #F15A29;
-  margin-left: 400px;
+  margin-left: 50px;
+  width: 80px;
 }
 #email{
-  margin-left: 100px;
+  margin-left: 20px;
+  width: 300px;
+}
+.foodtop{
 }
 .menu{
   background-color: #F15A29;
   align-items: center;
-  padding-left: 520px;
-  padding-right: 520px;
+  padding-left: 580px;
+  padding-right: 580px;
   height: 200px;
+  padding-top: 40px;
+  color: white;
+}
+.meals{
+  background-image: url(../images/backgrounds/foodsBg.jpg);
+  height: 400px;
 }
