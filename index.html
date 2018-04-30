@@ -6,23 +6,26 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <div class="container">
+  <div class="container-fluid">
   <div class="header">
-    <div class="hamburger" onclick="myFunction(this)">
-      <nav class="nav-hide">
-       <ul class="list-unstyled">
-         <li><a href="#">Contacts</a></li>
-         <li><a href="#">Events</a></li>
-         <li><a href="#">Menu</a></li>
-       </ul>
-     </nav>
-    </div>
+    <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+  </button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">Contacts</a>
+    <a href="#">Events</a>
+    <a href="#">Menu</a>
+  </div>
+</div>
     <div class="logo">
       <img class="logoimg" src="images/logoBig.png" alt="Logo" >
     </div>
-<h2 class="tagline">We Provide The Best Food At The <strong>Right Price</strong></h2>
-  </div>
-  <div class="foodtop">
+      <h2 class="tagline">We Provide The Best Food At The <strong>Right Price</strong></h2>
+      </div>
+    <div class="foodtop">
     <div class="row">
       <div class="col-md-3">
         <div class="row">
@@ -47,17 +50,18 @@
       </div>
        </div>
     </div>
-  </div>
-</div>
   <div class="row">
     <div class="col-md-6">
       <div class="fastfood">
+        <div class="well">
       <img src="images/fastFood1.jpg" alt="fastfood1">
       <img src="images/fastFood2.jpg" alt="fastfood2">
+      </div>
       </div>
     </div>
     <div class="col-md-6">
       <div class="food">
+      </div>
       <h1>Fast Food</h1>
       <h3>You'll love our delicious fast food</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisc
@@ -68,10 +72,9 @@
         aute irure dolor in reprehenderit in voluptate velit
         esse cillum dolore eu fugiat nulla pariatur. Exce
         pteur sint occaecat cupidatat non proident</p>
-        <button type="button" class="btn btn-default">VIEW GALLERY <span class="glyphicon glyphicon-arrow-right"></span/></button>
+        <button type="button" class="btn btn-default">VIEW GALLERY></button>
       </div>
     </div>
-  </div>
   <div class="row">
     <div class="col-md-6">
       <div class="drinks">
@@ -85,49 +88,47 @@
       aute irure dolor in reprehenderit in voluptate velit
       esse cillum dolore eu fugiat nulla pariatur. Exce
       pteur sint occaecat cupidatat non proident</p>
-      <button type="button" class="btn btn-default">VIEW GALLERY <span class="glyphicon glyphicon-arrow-right"></span> </button>
+      <button type="button" class="btn btn-default">VIEW GALLERY></button>
     </div>
   </div>
   <div class="col-md-6">
-    <img src="images/drink1.jpg" alt="Drink1">
+    <div class= "we">
+    <div class="well">
+    <img class="drink1" src="images/drink1.jpg" alt="Drink1">
     <img src="images/drink2.jpg" alt="Drink2">
+    </div>
+    </div>
   </div>
 </div>
-<div class="row">
-  <div class="meals"
-  <div class="tab">
-    <div class="col-md-3">
-      <button class="tablinks" onclick="openfood(event, 'Fastfood')">Fast food</button>
-    </div>
-    <div class="col-md-3">
-      <button class="tablinks" onclick="openfood(event, 'Drinks')">Drinks</button>
-    </div>
-    <div class="col-md-3">
-      <button class="tablinks" onclick="openfood(event, 'Chicken')">Chicken</button>
-    </div>
-    <div class="col-md-3">
-      <button class="tablinks" onclick="openfood(event, 'Rice')">Rice</button>
-    </div>
-    <!-- Tab content -->
-<div id="Fast food" class="tabcontent">
-  <div class="col-md-4">
-    <img class="chicken" src="images/fastfood/chickenBurger.jpg" alt="chickenburger">
-    <h4> Chicken Burger</h4>
-  </div>
-  <div class="col-md-4">
-    <img class="beef"src="images/fastfood/beefBurger.jpg" alt="beefburger">
-    <h4>Beef Burger</h4>
-  </div>
-  <div class="col-md-4">
-    <img class="pizza" src="images/fastfood/chickenPizza.jpg" alt="chickenpizza">
-    <h4>Chicken Pizza</h4>
+<div class="row" "types">
+  <div class="col-md-12">
+    <div class="row" >
+      <div class="col-md-3">
+        <button class="tablinks">Fast food</button>
+      </div>
+      <div class="col-md-3">
+        <button class="tablinks">Drinks</button>
+      </div>
+      <div class="col-md-3">
+        <button class="tablinks">Chicken</button>
+      </div>
+      <div class="col-md-3">
+        <button class="tablinks">Rice</button>
+      </div>
   </div>
 </div>
-  <div class="row">
+</div>
+
   </div>
+
+
+
   <div class="row">
+    <div class="col-md-12 review">
+      <div class="well review1">
+      <div class="row">
     <div class="customers">
-    <div class="col-md-9">
+    <div class="col-md-9" id="separate">
       <div class="Happy">
       <h3>Our Happy Customers</h3>
     </div>
@@ -135,12 +136,10 @@
       <h4>George Richard</h4>
       <p>Great food!Menu is awesome. There foods are not only great but also in the right price.I'll highly
         recommend them :)
-      <span id="custs" class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <p>
       <img id="pics" src="images/customers/p1.png">
       <img id="pics" src="images/customers/p2.png">
       <img id="pics" src="images/customers/p3.png">
-      <span id="custs" class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    </div>
     </div>
     </div>
     <div class="col-md-3">
@@ -152,6 +151,10 @@
       irure dolor in reprehenderit in voluptate velit esse cillum
       dolore eu fugiat nulla pariatur.</p>
     </div>
+  </div>
+</div>
+</div>
+</div>
 </div>
 <div class="row">
   <div class="col-md-12">
@@ -169,11 +172,8 @@
 <div class="row">
   <div class="col-md-12">
     <div class="menu">
-      <img src="images/footerlogos/logo_white.png" alt="Footerlogo">
-      <div id="Menu">
-      <h2>MENU</h2>
-      </div>
-      <p>That's what We Are</p>
+      <p> <img src="images/footerlogos/logo_white.png" alt="Footerlogo"> MENU</p>
+        <p>That's what We Are</p>
       <h6>2016 Menu Restaurant</h6>
     </div>
   <div class="contacts">
