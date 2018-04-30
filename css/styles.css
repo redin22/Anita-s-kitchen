@@ -13,27 +13,78 @@ padding-top: 40px;
 text-align: center;
 font-style: normal;
 font-weight: 600;
+width: 30%;
+margin-left: 35%;
 color: white;
-}
-.fastfood{
-float:right;
-padding-top: 50px;
-padding-left: 160px;
-border-radius: 4px;
-}
-.food{
-float: right;
-word-wrap: break-word;
-margin-left:60px;
-margin-right: 160px;
 }
 .btn{
 border-color: #F15A29;
 background-color: white;
 color:#F15A29;
 }
+.happy-hour, .party-time{
+  height: 95px;
+  font-size: 2.5rem;
+  text-align: center;
+  padding-top: 35px;
+}
+.party-time{
+  background-color: #F15A29;
+  color: #fff;
+}
+p.meal {
+  font-style: italic;
+  color: #fff;
+  text-align: center;
+  padding-top: 90px;
+  font-size: 2.5rem;
+}
+.breakfast, .lunch, .dinner{
+  height: 200px;
+  background-size: cover;
+}
+.breakfast{
+  background-image: url('../images/foodtop/breakfast.jpg');
+}
+.lunch{
+  background-image: url('../images/foodtop/lunch.jpg');
+}
+.dinner{
+  background-image: url('../images/foodtop/dinner.jpg');
+}
 .drink1{
 padding-left: 5;
+}
+.title2{
+font-weight: 700;
+font-size: 16px;
+padding: 2%;
+background-color: #ddd;
+border-left: 1px solid #ccc;
+text-align: center;
+}
+.title1{
+  background-color: white;
+}
+.images{
+  padding-left: 6%;
+    padding-bottom: 1.5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    }
+.images p{
+  color: #F15A29;
+  text-align: center;
+  padding-top: 2%;
+}
+.big{
+  background-image: url('../images/backgrounds/foodsBg.jpg');
+  padding: 8%;
+}
+.foods{
+  background-color: white;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 .tab {
 overflow: hidden;
@@ -46,49 +97,49 @@ text-align: right;
 word-break: keep-all;
 padding-left: 170px;
 }
-.types{
-  background-image: url(../images/backgrounds/foodsBg.jpg);
-}
-.chicken{
-padding-right: 150px;
-text-align: center;
-color: #F15A29;
-}
-.beef{
-text-align: center;
-color: #F15A29;
-}
-.pizza{
-text-align: center;
-color: #F15A29;
-}
 .customers{
 margin-left: 120px;
 margin-right: 120px;
 margin-top: 90px;
 margin-bottom: 90px;
 }
-#happy{
-height: 105px;
-text-align: center;
-margin-left: 30px;
-padding-top: 25px;
-padding-bottom: 25px;
-}
-#party{
-background-color:#F15A29;
-height: 105px;
-text-align: center;
-margin-left: 30px;
-padding-top: 25px;
-padding-bottom: 25px;
-}
+
 .our{
 text-align: center;
 }
-#breakfast{
-  background-image: url(../images/foodtop/breakfast.jpg);
-
+.types{
+  background-image: url(../img/backgrounds/foodsBg.jpg);
+  padding: 6%;
+}
+.container.meals-list {
+  width: 77vw;
+  background-color: #fff;
+}
+.meals-titles {
+  background-color: #ddd;
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 3%;
+  text-align: center;
+}
+.meal-title{
+  padding: 2%;
+  border-left: 1px solid #ccc;
+}
+.meal-fast-food{
+  background-color: white;
+}
+.meals-images{
+  padding-left: 6%;
+  padding-bottom: 1.5%;
+  padding-right: 5%;
+}
+.meal-image-text {
+  color: #F15A29;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 4%;
 }
 .buttons{
 display: inline-block;
@@ -129,14 +180,12 @@ width: 300px;
 .foodtop{
 }
 .review{
-padding-left: 150px;
-padding-right: 150px;
-padding: 25px;
-margin: 25px;
-box-shadow: grey;
-}
-.review1{
-  background-color: white;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  width: 70%;
+  margin-left: 13%;
+  border: 1px solid #ccc;
+  padding: 25px;
 }
 #separate{
 border-right: 2px solid #ccc;

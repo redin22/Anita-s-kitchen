@@ -10,8 +10,8 @@
 
   gtag('config', 'UA-118388124-1');
 </script>
-
   <title>Anita's kitchen</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -35,34 +35,28 @@
     </div>
       <h2 class="tagline">We Provide The Best Food At The <strong>Right Price</strong></h2>
       </div>
-    <div class="foodtop">
-    <div class="row">
-      <div class="col-md-3">
-        <div class="row">
-          <div class="time row">
-            <div id="happy">
-             <h3>Happy Hour</h3>
-            </div>
-            <div id="party">
-            <h3>Party Time</h3>
-            </div>
+      <section class="foodtop">
+       <div class="row">
+         <div class="col-md-3">
+           <div class="row">
+             <p class="happy-hour">Happy Hour</p>
+           </div>
+           <div class="row">
+             <p class="party-time">Party Time</p>
            </div>
          </div>
+         <div class="col-md-3 breakfast">
+           <p class="meal">Breakfast</p>
+         </div>
+         <div class="col-md-3 lunch">
+           <p class="meal">Lunch</p>
+         </div>
+         <div class="col-md-3 dinner">
+           <p class="meal">Dinner</p>
+         </div>
        </div>
-      <div class="col-md-3" id="breakfast">
-        <h3>Breakfast</h3>
+   </section>
 
-      </div>
-      <div class="col-md-3">
-        <img src="images/foodtop/lunch.jpg" `alt="Lunch">
-        <p>Lunch</p>
-      </div>
-      <div class="col-md-3">
-        <img src="images/foodtop/dinner.jpg" alt="Dinner">
-
-      </div>
-       </div>
-    </div>
   <div class="row">
     <div class="col-md-6">
       <div class="fastfood">
@@ -113,35 +107,47 @@
     </div>
   </div>
 </div>
-<div class="row" "types">
+<div class="row big">
   <div class="col-md-12">
-    <div class="row" >
-      <div class="col-md-3">
-        <button class="tablinks">Fast food</button>
+    <div class="foods">
+      <div class="row">
+        <div class="col-md-3 title2 title1">
+          Fast Food
+        </div>
+        <div class="col-md-3 title2">
+          Drinks
+        </div>
+        <div class="col-md-3 title2">
+          Chicken
+        </div>
+        <div class="col-md-3 title2">
+          Rice
+        </div>
       </div>
-      <div class="col-md-3">
-        <button class="tablinks">Drinks</button>
+      <div class="row images">
+        <div class="col-md-4">
+          <img src="images/fastfood/chickenBurger.jpg" alt="Chicken burger">
+          <p>Chicken Burger</p>
+        </div>
+        <div class="col-md-4">
+          <img src="images/fastfood/beefBurger.jpg" alt="Beef Burger">
+          <p>Beef Burger</p>
+        </div>
+        <div class="col-md-4">
+          <img src="images/fastfood/chickenPizza.jpg" alt="Chicken Pizza">
+          <p>Chicken Pizza</p>
+        </div>
       </div>
-      <div class="col-md-3">
-        <button class="tablinks">Chicken</button>
-      </div>
-      <div class="col-md-3">
-        <button class="tablinks">Rice</button>
-      </div>
+    </div>
   </div>
+
 </div>
-</div>
-
-  </div>
-
-
 
   <div class="row">
     <div class="col-md-12 review">
-      <div class="well review1">
       <div class="row">
-    <div class="customers">
-    <div class="col-md-9" id="separate">
+    <div class="">
+    <div class="col-md-8" id="separate">
       <div class="Happy">
       <h3>Our Happy Customers</h3>
     </div>
@@ -155,7 +161,7 @@
       <img id="pics" src="images/customers/p3.png">
     </div>
     </div>
-    <div class="col-md-3">
+    <div class="col-md-4">
       <div class="about">
         <h2><strong>About Menu</strong></h2>
       </div>
@@ -175,7 +181,7 @@
       <h3>Get our daily food items delivered to your email</h3>
       <form>
         <div class="buttons">
-          <input type="text" value="Your email" id="email"></input>
+          <input type="text" value="Your email"  placeholder="Your email" id="email"></input>
           <input type="submit" value="Subscribe" id="subscribe"></input>
         </div>
      </form>
@@ -196,7 +202,7 @@
   </div>
   </div>
 </div>
-</div>
+  </div>
   <script src="js/jquery-3.3.1.js"></script>
   <script src="js/scripts.js"></script>
 </body>
