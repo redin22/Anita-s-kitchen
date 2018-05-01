@@ -9,52 +9,51 @@
 <body>
   <div class="container">
   <div class="header">
-    <div class="hamburger" onclick="myFunction(this)">
-      <nav class="nav-hide">
-       <ul class="list-unstyled">
-         <li><a href="#">Contacts</a></li>
-         <li><a href="#">Events</a></li>
-         <li><a href="#">Menu</a></li>
-       </ul>
-     </nav>
+    <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+     <div class="bar3"></div>
+    </button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="#">contacts</a>
+      <a href="#">Events</a>
+      <a href="#">Menu</a>
     </div>
+  </div>
     <div class="logo">
       <img class="logoimg" src="images/logoBig.png" alt="Logo" >
     </div>
 <h2 class="tagline">We Provide The Best Food At The <strong>Right Price</strong></h2>
   </div>
-  <div class="foodtop">
-    <div class="row">
-      <div class="col-md-3">
-        <div class="row">
-          <div class="time row">
-            <div id="happy">
-             <h3>Happy Hour</h3>
-            </div>
-            <div id="party">
-            <h3>Party Time</h3>
-            </div>
+  <section class="foodtop">
+       <div class="row">
+         <div class="col-md-3">
+           <div class="row">
+             <p class="happy-hour">Happy Hour</p>
+           </div>
+           <div class="row">
+             <p class="party-time">Party Time</p>
            </div>
          </div>
+         <div class="col-md-3 breakfast">
+           <p class="meal">Breakfast</p>
+         </div>
+         <div class="col-md-3 lunch">
+           <p class="meal">Lunch</p>
+         </div>
+         <div class="col-md-3 dinner">
+           <p class="meal">Dinner</p>
+         </div>
        </div>
-      <div class="col-md-3">
-        <img src="images/foodtop/breakfast.jpg" alt="breakfast">
-      </div>
-      <div class="col-md-3">
-        <img src="images/foodtop/lunch.jpg" `alt="Lunch">
-      </div>
-      <div class="col-md-3">
-        <img src="images/foodtop/dinner.jpg" alt="Dinner">
-      </div>
-       </div>
-    </div>
-  </div>
-</div>
+   </section>
   <div class="row">
     <div class="col-md-6">
       <div class="fastfood">
+        <div class="well">
       <img src="images/fastFood1.jpg" alt="fastfood1">
       <img src="images/fastFood2.jpg" alt="fastfood2">
+      </div>
       </div>
     </div>
     <div class="col-md-6">
@@ -69,7 +68,7 @@
         aute irure dolor in reprehenderit in voluptate velit
         esse cillum dolore eu fugiat nulla pariatur. Exce
         pteur sint occaecat cupidatat non proident</p>
-        <button type="button" class="btn btn-default">VIEW GALLERY <span class="glyphicon glyphicon-arrow-right"></span/></button>
+        <button type="button" class="btn btn-default"> VIEW GALLERY</button>
       </div>
     </div>
   </div>
@@ -86,49 +85,50 @@
       aute irure dolor in reprehenderit in voluptate velit
       esse cillum dolore eu fugiat nulla pariatur. Exce
       pteur sint occaecat cupidatat non proident</p>
-      <button type="button" class="btn btn-default">VIEW GALLERY <span class="glyphicon glyphicon-arrow-right"></span> </button>
+      <button type="button" class="btn btn-default">VIEW GALLERY</button>
     </div>
   </div>
   <div class="col-md-6">
+    <div class="well">
     <img src="images/drink1.jpg" alt="Drink1">
     <img src="images/drink2.jpg" alt="Drink2">
+    </div>
   </div>
 </div>
-<div class="row">
-  <div class="meals"
-  <div class="tab">
-    <div class="col-md-3">
-      <button class="tablinks" onclick="openfood(event, 'Fastfood')">Fast food</button>
+<div class="row big">
+  <div class="foods">
+ <div class="row meals-titles">
+      <div class="col-md-3 title1 title2">
+        Fast Food
     </div>
-    <div class="col-md-3">
-      <button class="tablinks" onclick="openfood(event, 'Drinks')">Drinks</button>
+    <div class="col-md-3 title2">
+      Drinks
     </div>
-    <div class="col-md-3">
-      <button class="tablinks" onclick="openfood(event, 'Chicken')">Chicken</button>
+    <div class="col-md-3 title2">
+        Chicken
     </div>
-    <div class="col-md-3">
-      <button class="tablinks" onclick="openfood(event, 'Rice')">Rice</button>
-    </div>
-    <!-- Tab content -->
-<div id="Fast food" class="tabcontent">
-  <div class="col-md-4">
-    <img class="chicken" src="images/fastfood/chickenBurger.jpg" alt="chickenburger">
-    <h4> Chicken Burger</h4>
+    <div class="col-md-3 title2">
+     Rice
+   </div>
   </div>
-  <div class="col-md-4">
-    <img class="beef"src="images/fastfood/beefBurger.jpg" alt="beefburger">
-    <h4>Beef Burger</h4>
-  </div>
-  <div class="col-md-4">
-    <img class="pizza" src="images/fastfood/chickenPizza.jpg" alt="chickenpizza">
-    <h4>Chicken Pizza</h4>
-  </div>
+    <div class="row">
+      <div class="col-md-4">
+        <img src="images/fastfood/chickenBurger.jpg" alt="Chicken Burger">
+        <p class="images">Chicken Burger</p>
+      </div>
+      <div class="col-md-4">
+        <img src="images/fastfood/beefBurger.jpg" alt="Beef Burger">
+        <p class="images">Beef Burger</p>
+      </div>
+      <div class="col-md-4">
+        <img src="images/fastfood/chickenPizza.jpg" alt="Chicken Pizza">
+        <p class="images">Chicken Pizza</p>
+      </div>
+    </div>
+ </div>
 </div>
-  <div class="row">
-  </div>
-  <div class="row">
-    <div class="customers">
-    <div class="col-md-9">
+  <div class="row review">
+    <div class="col-md-8 customers">
       <div class="Happy">
       <h3>Our Happy Customers</h3>
     </div>
@@ -136,15 +136,12 @@
       <h4>George Richard</h4>
       <p>Great food!Menu is awesome. There foods are not only great but also in the right price.I'll highly
         recommend them :)
-      <span id="custs" class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <img id="pics" src="images/customers/p1.png">
-      <img id="pics" src="images/customers/p2.png">
-      <img id="pics" src="images/customers/p3.png">
-      <span id="custs" class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <img src="images/customers/p1.png">
+      <img src="images/customers/p2.png">
+      <img src="images/customers/p3.png">
     </div>
     </div>
-    </div>
-    <div class="col-md-3">
+    <div class="col-md-4">
       <div class="about">
         <h2><strong>About Menu</strong></h2>
       </div>
@@ -168,23 +165,16 @@
   </div>
 </div>
 <div class="row">
-  <div class="col-md-12">
-    <div class="menu">
-      <img src="images/footerlogos/logo_white.png" alt="Footerlogo">
-      <div id="Menu">
-      <h2>MENU</h2>
-      </div>
-      <p>That's what We Are</p>
-      <h6>2016 Menu Restaurant</h6>
-    </div>
-  <div class="contacts">
+  <div class="col-md-12 menu">
+    <p> <img src="images/footerlogos/logo_white.png" alt="Footerlogo">MENU</p>
+      <h5>That's what We Are</h5>
     <img src="images/footerlogos/facebook.png" alt="facebook">
     <img src="images/footerlogos/twitter.png" alt="twitter">
     <img src="images/footerlogos/pinterest.png" alt="pinterest">
-  </div>
+    <h5>2016 Menu Restaurant</h5>
   </div>
 </div>
-</div>
+
   <script src="js/jquery-3.3.1.js"></script>
   <script src="js/scripts.js"></script>
 </body>

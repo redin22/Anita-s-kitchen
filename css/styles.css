@@ -69,11 +69,12 @@ p.meal {
   font-size: 16px;
   padding: 2%;
   background-color: #ddd;
-  border-left: 1px solid #ccc;
   text-align: center;
 }
 .title1{
  background-color: white;
+ color:#F15A29;
+ font-size: 18px;
 }
 .images{
   padding-left: 6%;
@@ -81,19 +82,18 @@ p.meal {
   padding-right: 5%;
   padding-top: 3%;
 }
-.images p{
+.images {
   color: #F15A29;
   text-align: center;
   padding-top: 2%;
 }
-.big{
- background-image: url('../images/backgrounds/foodsBg.jpg');
- padding: 8%;
-}
 .foods{
   background-color: white;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 125px;
+  padding-left: 108px;
+}
+.big{
+  background-image: url('../images/backgrounds/foodsBg.jpg');
 }
 .tab {
   overflow: hidden;
@@ -107,18 +107,10 @@ p.meal {
   padding-left: 170px;
 }
 .customers{
-  margin-left: 120px;
-  margin-right: 120px;
-  margin-top: 90px;
-  margin-bottom: 90px;
+  border-right: 1px solid #ccc;
 }
-
 .our{
  text-align: center;
-}
-.types{
-  background-image: url(../img/backgrounds/foodsBg.jpg);
-  padding: 6%;
 }
 .container.meals-list {
   width: 77vw;
@@ -128,12 +120,12 @@ p.meal {
   background-color: #ddd;
   font-size: 1.7rem;
   font-weight: 700;
-  margin-bottom: 3%;
   text-align: center;
 }
 .meal-title{
   padding: 2%;
   border-left: 1px solid #ccc;
+  padding-top:1 0px;
 }
 .meal-fast-food{
  background-color: white;
@@ -174,9 +166,6 @@ p.meal {
 .about{
  color: #F15A29;
 }
-#pics :hover {
- opacity: 0.5;
-}
 #subscribe{
   background-color: #F15A29;
   margin-left: 50px;
@@ -193,10 +182,6 @@ p.meal {
   margin-left: 14%;
   border: 1px solid #ccc;
   padding: 2px;
-}
-#separate{
-border-right: 2px solid #ccc;
-padding right: 20px;
 }
 .footer {
 height: 220px;
@@ -247,7 +232,14 @@ color:white;
 .show {display:block;}
 .logo{
   text-align: center;
-  padding-top: 60px;
+  margin-top: -109px;
+}
+.menu{
+  background-color:#F15A29;
+  padding-left: 584px;
+  height: 200px;
+  padding-top: 26px;
+  color: white;
 }
 .we{
  padding-right: 70px;
