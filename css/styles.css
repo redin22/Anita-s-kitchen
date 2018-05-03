@@ -70,6 +70,10 @@ p.meal {
   padding: 2%;
   background-color: #ddd;
   text-align: center;
+  border-right: 2px solid #ccc;
+}
+.title2:hover {
+    background-color: #ccc;
 }
 .title1{
  background-color: white;
@@ -89,11 +93,33 @@ p.meal {
 }
 .foods{
   background-color: white;
-  padding-right: 125px;
-  padding-left: 108px;
+  padding-right: 206px;
+  padding-top: 63px;
+  padding-bottom: 89px;
+  padding-left: 200px;
+  background-image: url('../images/backgrounds/foodsBg.jpg');
+}
+.box1{
+  box-shadow: 2px 2px 2px 2px grey;
+  padding-bottom: 26px;
+  padding-top: 30px;
+  padding-right: 70px;
+  margin-left: 123px;
+  padding-left: 25px;
+  margin-top: 23px;
+}
+.box2{
+  box-shadow: 2px 2px 2px 2px grey;
+  padding-bottom: 33px;
+  padding-top: 30px;
+  padding-left: 25px;
+  margin-bottom: 20px;
+  margin-right: 110px;
 }
 .big{
-  background-image: url('../images/backgrounds/foodsBg.jpg');
+  background-color: white;
+  padding-right: 60px;
+  padding-left: 50px;
 }
 .tab {
   overflow: hidden;
